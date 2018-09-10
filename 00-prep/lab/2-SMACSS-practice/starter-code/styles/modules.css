@@ -56,8 +56,9 @@ h2 {
   margin-bottom: 33px;
 }
 
-.date {
+p.date {
   float: left;
+  text-indent: 0;
 }
 
 .print {
@@ -99,25 +100,25 @@ input {
   line-height: 31px;
 }
 
-aside img {
+section img {
   float: left;
 }
 
-aside h3 {
+section h3 {
   padding-left: 100px;
   font-size: 1.6em;
   padding-bottom: 10px;
   color: #555;
 }
 
-aside p {
+section p {
   padding-left: 100px;
   width: 65%;
   margin: 0;
   text-indent: 0;
 }
 
-aside button {
+section button {
   float: right;
   font-family: 'Abel', sans-serif;
   text-transform: uppercase;
@@ -128,12 +129,12 @@ aside button {
   border: none;
 }
 
-section hr {
+footer hr {
   border-bottom: 1px solid #eee;
   height: 0;
 }
 
-footer section p {
+footer p {
   padding: 50px 0;
   line-height: 1.5em;
   text-align: center;
